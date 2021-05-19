@@ -1,16 +1,20 @@
-Flutter Auth using:
+->Flutter Auth using:
 
-1-Firebase
+  1-Firebase
 
-2-Provider
+  2-Provider
 
-packages used:
+->Api Handling using http.
 
-1-firebase_core
+->packages used:
 
-2-provider
+  1-firebase_core
 
-Screenshots:
+  2-provider
+
+  3-http
+
+->Screenshots:
 1-splash screen
 ![Screenshot_1621224944](https://user-images.githubusercontent.com/83206872/118432534-7705a200-b6f6-11eb-8c1b-c3e76aab16c7.png)
 2-registration screen
