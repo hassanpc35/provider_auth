@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_provider/business_logic/models/provider_state.dart';
+import 'package:flutter_provider/business_logic/providers/provider_state.dart';
 import 'package:flutter_provider/business_logic/utils/app_colors.dart';
 import 'package:flutter_provider/business_logic/utils/navigation_service.dart';
 import 'package:flutter_provider/business_logic/utils/route_constant.dart';

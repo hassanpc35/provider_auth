@@ -6,7 +6,8 @@ import 'package:flutter_provider/ui/views/registration_screen.dart';
 import 'package:loader_overlay/loader_overlay.dart';
 import 'package:provider/provider.dart';
 
-import 'business_logic/models/provider_state.dart';
+import 'business_logic/providers/dashboard_provider.dart';
+import 'business_logic/providers/provider_state.dart';
 import 'business_logic/utils/app_colors.dart';
 import 'business_logic/utils/navigation_service.dart';
 import 'business_logic/utils/route_constant.dart';
@@ -101,7 +102,9 @@ class _MyAppState extends State<MyApp> {
         return MaterialPageRoute(builder: (_)=>ProviderLogin());
         break;
       case dashboardRoute:
-        return MaterialPageRoute(builder: (_)=>ProviderDashboard());
+        return MaterialPageRoute(builder: (_)=>ChangeNotifierProvider(
+            create: (context) => DashBoardProvider(),
+            child: ProviderDashboard()));
       default:
         return MaterialPageRoute(builder: (_)=>SplashScreen());
     }

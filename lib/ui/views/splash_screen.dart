@@ -17,7 +17,7 @@ class SplashScreenState extends State<SplashScreen> {
   _timer() {
     Timer(Duration(seconds: 3), () async {
 
-      NavigationService().pushNamedAndRemoveUntil(registrationRoute,
+      NavigationService().pushNamedAndRemoveUntil(loginRoute,
           arguments: {'from': 'splash'});
       // }
     });

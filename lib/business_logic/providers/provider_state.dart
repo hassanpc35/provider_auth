@@ -8,6 +8,9 @@ class ProviderState extends ChangeNotifier{
   String get getEmail => _email;
   FirebaseAuth _auth=FirebaseAuth.instance;
 
+
+
+
   Future<bool> createUserAccount(String email, String password) async{
     bool success = false;
     try{
@@ -52,5 +55,6 @@ class ProviderState extends ChangeNotifier{
     }
     return success;
   }
+
 
 }
