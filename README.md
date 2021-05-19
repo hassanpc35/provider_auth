@@ -1,16 +1,15 @@
-# flutter_provider
+Flutter Auth using:
+1-Firebase
+2-Provider
 
-A new Flutter project.
+packages used:
+1-firebase_core
+2-provider
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Screenshots:
+1-splash screen
+![Screenshot_1621224944](https://user-images.githubusercontent.com/83206872/118432534-7705a200-b6f6-11eb-8c1b-c3e76aab16c7.png)
+2-registration screen
+![Screenshot_1621224896](https://user-images.githubusercontent.com/83206872/118432537-7a009280-b6f6-11eb-98ad-6b3bcaa90351.png)
+3-login screen
+![Screenshot_1621224917](https://user-images.githubusercontent.com/83206872/118432539-7bca5600-b6f6-11eb-8451-197a72e2a06c.png)
